@@ -1,0 +1,652 @@
+a{
+    text-decoration: none;
+}
+
+
+body{
+ opacity: 1.0;
+ padding: 10px;
+ width: 1131px;
+ height: 1000px;
+}
+
+
+
+h4 {
+ color:orange;
+}
+
+h5 {
+ color:black;
+}
+
+a {
+ color:black;
+ font-size: 14px;
+}
+
+#ramka {
+ padding: 15px;
+ border-radius: 13px;
+ border: 1px solid grey;
+ box-shadow: 1px 1px 17px #000000;
+ width:313px;
+ height: 110px
+}
+
+#ramka_osnova{
+    height: 650px;
+    width:313px;
+    padding: 15px;
+ border-radius: 13px;
+ border: 1px solid grey;
+ box-shadow: 1px 1px 17px #000000;
+}
+
+
+
+.prav{
+ position: relative;
+ left: 150px;
+ bottom: 265px;
+}
+
+.prav2{
+ position: relative;
+ left: 150px;
+ bottom: 355px;
+}
+
+.vish{
+ position: relative;
+ bottom: 190px;
+}
+
+.vish2{
+ position: relative;
+ bottom: 270px;
+}
+
+
+#ImageSpina{
+ position: relative;
+ left: 500px;
+ bottom: 2000px;
+}
+
+#ImageSpinaI{
+ width:1000px;
+}
+
+
+#ImageNogi{
+ position: relative;
+ left: 500px;
+ bottom: 2500px;
+}
+
+#ImageNogiI{
+ width:1000px;
+}
+
+#ImageObsh{
+ position: relative;
+ left: 500px;
+ bottom: 3500px;
+}
+
+#ImageObshI{
+ width:1000px;
+}
+
+#ImageDonniy{
+ position: relative;
+ left: 500px;
+ bottom: 4500px;
+}
+
+#ImageDonniyI{
+ width:1000px;
+}
+
+#ImageAroma{
+ position: relative;
+ left: 500px;
+ bottom: 5500px;
+}
+
+#ImageAromaI{
+ width:1000px;
+}
+
+#ImageTurbo{
+ position: relative;
+ left: 500px;
+ bottom: 6500px;
+}
+
+#ImageTurboI{
+ width:1000px;
+}
+
+#ImageHromo{
+ position: relative;
+ left: 500px;
+ bottom: 7500px;
+}
+
+#ImageHromoI{
+ width:1000px;
+}
+
+#ImageAquasound{
+ position: relative;
+ left: 500px;
+ bottom: 8500px;
+}
+
+#ImageAquasoundI{
+ width:1000px;
+}
+
+#ImageRuchki{
+ position: relative;
+ left: 500px;
+ bottom: 9500px;
+}
+
+#ImageRuchkiI{
+ width:1000px;
+}
+
+#ImageSmes{
+ position: relative;
+ left: 500px;
+ bottom: 10500px;
+}
+
+#ImageSmesI{
+ width:1000px;
+}
+
+#ImagePodgol{
+ position: relative;
+ left: 500px;
+ bottom: 11500px;
+}
+
+#ImagePodgolI{
+ width:1000px;
+}
+
+#ImageMain{
+ position: relative;
+ left: 500px;
+ bottom: 800px;
+ width: 150px;
+}
+
+#ImageMainI{
+ width:500px;
+}
+
+#ImageSpinaShiacu{
+ position: relative;
+ left: 500px;
+ bottom: 12000px;
+}
+
+#ImageSpinaShiacuI{
+ width:500px;
+}
+
+#ImageSpinaEvromik{
+ position: relative;
+ left: 500px;
+ bottom: 12500px;
+}
+
+#ImageSpinaEvromikI{
+ width:500px;
+}
+
+#ImageSpinaRotativ{
+ position: relative;
+ left: 500px;
+ bottom: 13000px;
+}
+
+#ImageSpinaRotativI{
+ width:500px;
+}
+
+#ImageNogiShiacu{
+ position: relative;
+ left: 500px;
+ bottom: 13500px;
+}
+
+#ImageNogiShiacuI{
+ width:500px;
+}
+
+#ImageNogiEvromik{
+ position: relative;
+ left: 500px;
+ bottom: 14000px;
+}
+
+#ImageNogiEvromikI{
+ width:500px;
+}
+
+#ImageNogiRotativ{
+ position: relative;
+ left: 500px;
+ bottom: 14500px;
+}
+#ImageNogiRotativI{
+ width:500px;
+}
+
+#ImageNogiMac{
+ position: relative;
+ left: 500px;
+ bottom: 15000px;
+}
+
+#ImageNogiMacI{
+ width:500px;
+}
+
+#ImageNogiJakuz{
+ position: relative;
+ left: 500px;
+ bottom: 15500px;
+}
+
+#ImageNogiJakuzI{
+ width:500px;
+}
+
+#ImageNogiRapid{
+ position: relative;
+ left: 500px;
+ bottom: 15500px;
+}
+
+#ImageNogiRapidI{
+ width:500px;
+}
+
+#ImageObshJakuz{
+ position: relative;
+ left: 500px;
+ bottom: 16000px;
+}
+
+#ImageObshJakuzI{
+ width:500px;
+}
+
+#ImageObshRapid{
+ position: relative;
+ left: 500px;
+ bottom: 16500px;
+}
+
+#ImageObshRapidI{
+ width:500px;
+}
+
+#ImageObshMac{
+ position: relative;
+ left: 500px;
+ bottom: 17000px;
+}
+
+#ImageObshMacI{
+ width:500px;
+}
+
+#ImageDonniyMagic{
+ position: relative;
+ left: 500px;
+ bottom: 17500px;
+}
+
+#ImageDonniyMagicI{
+ width:500px;
+}
+
+#ImageDonniyAero{
+ position: relative;
+ left: 500px;
+ bottom: 18000px;
+}
+
+#ImageDonniyAeroI{
+ width:500px;
+}
+
+#ImageRuchkiMetal{
+ position: relative;
+ left: 500px;
+ bottom: 18500px;
+}
+
+#ImageRuchkiMetalI{
+ width:500px;
+}
+
+#ImageRuchkiPoluret{
+ position: relative;
+ left: 500px;
+ bottom: 19000px;
+}
+
+#ImageRuchkiPoluretI{
+ width:500px;
+}
+
+
+
+
+
+
+
+
+#ImageFitness{
+    position: relative;
+    width:50px;
+    bottom: 15px;
+    right:47px;
+}
+
+#Fitness{
+    position: relative;
+    left: 1px;
+}
+
+#ramka_viboraFitness{
+    position: relative;
+    padding: 15px;
+    border-radius: 13px;
+    border: 1px solid blue;
+    bottom: 307px;
+    right: 11px;
+    width: 35px;
+    height: 55px;
+    cursor: pointer;
+}
+
+
+#ramka_viboraRelax{
+    position: relative;
+    padding: 15px;
+    border-radius: 13px;
+    border: 1px solid blue;
+    bottom: 394px;
+    left: 55px;
+    width: 35px;
+    height: 55px;
+    cursor: pointer;
+}
+
+#ramka_viboraMagic{
+    position: relative;
+    padding: 15px;
+    border-radius: 13px;
+    border: 1px solid blue;
+    bottom: 481px;
+    left: 122px;
+    width: 35px;
+    height: 55px;
+    cursor: pointer;
+}
+
+#ramka_viboraHelth{
+    position: relative;
+    padding: 15px;
+    border-radius: 13px;
+    border: 1px solid blue;
+    bottom: 568px;
+    left: 189px;
+    width: 35px;
+    height: 55px;
+    cursor: pointer;
+}
+
+#ramka_viboraSPA{
+    position: relative;
+    padding: 15px;
+    border-radius: 13px;
+    border: 1px solid blue;
+    bottom: 655px;
+    left: 256px;
+    width: 35px;
+    height: 55px;
+    cursor: pointer;
+}
+
+#ImageRelax{
+    position: relative;
+    width:50px;
+    bottom: 15px;
+    right:47px;
+}
+
+#Relax{
+    position: relative;
+    bottom: 54px;
+    left: 71px;
+}
+
+#ImageMagic{
+    position: relative;
+    width:50px;
+    bottom: 15px;
+    right:47px;
+}
+
+#Magic{
+    position: relative;
+    bottom: 110px;
+    left: 137px;
+}
+
+#ImageHelth{
+    position: relative;
+    width:50px;
+    bottom: 15px;
+    right:47px;
+}
+
+#Helth{
+    position: relative;
+    bottom: 174px;
+    left: 203px;
+}
+
+#ImageSPA{
+    position: relative;
+    width:50px;
+    bottom: 15px;
+    right:35px;
+}
+
+#SPA{
+    position: relative;
+    bottom: 227px;
+    left: 277px;
+}
+
+#TipGS{
+    position: relative;
+    bottom: 20px;
+    height: 125px;
+}
+
+#Sbros{
+    position: relative;
+    bottom: 10000px;
+}
+
+#PHP{
+    height: 1000px;
+}
+
+#SpinaShiacu{
+
+}
+
+#ButtonClean{
+    opacity: 0.5;
+    height:50px;
+}
+
+#ButtonCleanA{
+    position: relative;
+    left: 550px;
+    bottom: 19210px;
+    width: 217px;
+    height: 50px;
+}
+
+#ButtonClean:hover{
+    opacity: 1.0;
+}
+
+#KolVoSpinaShiacu12{
+    position: relative;
+    left: 24px;
+}
+
+#KolVoSpinaEvromik2{
+    position: relative;
+    left: 15px;
+}
+
+#KolVoSpinaEvromik4{
+    position: relative;
+    left: 25px;
+}
+
+#KolVoSpinaEvromik6{
+    position: relative;
+    left: 35px;
+}
+
+#KolVoSpinaRotativ2{
+    position: relative;
+    left: 20px;
+}
+
+#KolVoSpinaRotativ4{
+    position: relative;
+    left: 30px;
+}
+
+#KolVoSpinaRotativ6{
+    position: relative;
+    left: 40px;
+}
+
+#KolVoNogiShiacu6{
+    position: relative;
+    left: 25px;
+}
+
+#KolVoNogiEvromik2{
+    position: relative;
+    left: 15px;
+}
+
+#KolVoNogiEvromik4{
+    position: relative;
+    left: 25px;
+}
+
+#KolVoNogiRotativ2{
+    position: relative;
+    left: 20px;
+}
+
+#KolVoNogiRotativ4{
+    position: relative;
+    left: 30px;
+}
+
+#KolVoNogiMac2{
+    position: relative;
+    left: 9px;
+}
+
+#KolVoNogiJakuz2{
+    position: relative;
+    left: 15px;
+}
+
+#KolVoNogiRapid2{
+    position: relative;
+    left: 31px;
+}
+
+#KolVoObshJakuz6{
+    position: relative;
+    left: 21px;
+}
+
+#KolVoObshMac6{
+    position: relative;
+    left: 15px;
+}
+
+#KolVoObshRapid6{
+    position: relative;
+    left: 37px;
+}
+
+#KolVoDonniyMagic8{
+    position: relative;
+    left: 25px;
+}
+
+#KolVoDonniyMagic10{
+    position: relative;
+    left: 35px;
+}
+
+#KolVoDonniyAero10{
+    position: relative;
+    left: 43px;
+}
+
+#KolVoDonniyAero12{
+    position: relative;
+    left: 47px;
+}
+
+#DialogCloud{
+    position: relative;
+    left: 115px;
+    top: 70px;
+    height: 150px;
+}
+
+#DialogDug{
+    height: 250px;
+}
+
+#AlertDialogTxtNogi{
+    position: relative;
+    left: 126px;
+    bottom: 293px;
+    opacity: 0.0;
+}
+
+#DialogCloudDug{
+    position: relative;
+    left: 1000px;
+    bottom: 19000px;
+}

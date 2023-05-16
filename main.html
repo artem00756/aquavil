@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Аквавиль задание</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+ </head>
+<script src="script.js"></script>
+ <body>
+  <form id = "PHP" action="handler.php">
+   <div id="ramka">
+   <div id="TipGS"><h5>Типовые гидромассажные системы</h5>
+     <div id="Fitness" ><a href="#" > Fitness </a>
+     <img name = 'imgFitness' id="ImageFitness"  src = 'images/fitness.png' /></div>
+
+     <div id="Relax"><a href="#"> Relax </a>
+     <img name = 'imgRelax' id="ImageRelax" src = 'images/relax.png' /></div>
+
+     <div id="Magic"><a href="#"> Magic </a>
+     <img name = 'imgMagic' id="ImageMagic" src = 'images/magic.png' /></div>
+
+     <div id="Helth"><a href="#"> Health </a>
+     <img name = 'imgHelth' id="ImageHelth" src = 'images/helth.png' /></div>
+
+     <div id="SPA"><a href="#"> SPA </a>
+     <img name = 'imgSPA' id="ImageSPA" src = 'images/SPA.png' /></div>
+
+     <div id = "ramka_viboraFitness" style="opacity: 0.0" onclick="ClickFitness()"></div>
+     <div id = "ramka_viboraRelax" style="opacity: 0.0" onclick="ClickRelax()"></div>
+     <div id = "ramka_viboraMagic" style="opacity: 0.0" onclick="ClickMagic()"></div>
+     <div id = "ramka_viboraHelth" style="opacity: 0.0" onclick="ClickHelth()"></div>
+     <div id = "ramka_viboraSPA" style="opacity: 0.0" onclick="ClickSPA()"></div>
+   </div>
+   </div>
+
+   <br>
+
+   <div id="ramka_osnova">
+   <h4 id="massaj">Массаж</h4>
+   <p><input type="checkbox" style="color" id="Spina" value="Спина" onclick="if(this.checked){OpenImageSpina()} else {CloseImageSpina()}"> Спина</p>
+     <a href="#" id = "SpinaShiacu" onclick = "SpinaShiacu()">Шиацу</a>
+     <a href="#" id="KolVoSpinaShiacu12" onclick="KolVoSpinaShiacu12()">12</a> <br>
+     <a href="#" id = "SpinaEvromik" onclick = "SpinaEvromik()">Евромик</a>
+     <a href="#" id="KolVoSpinaEvromik2" onclick="KolVoSpinaEvromik2()">2</a>
+     <a href="#" id="KolVoSpinaEvromik4" onclick="KolVoSpinaEvromik4()">4</a>
+     <a href="#" id="KolVoSpinaEvromik6" onclick="KolVoSpinaEvromik6()">6</a> <br>
+     <a href="#" id = "SpinaRotativ" onclick = "SpinaRotativ()">Ротатив</a>
+     <a href="#" id="KolVoSpinaRotativ2" onclick="KolVoSpinaRotativ2()">2</a>
+     <a href="#" id="KolVoSpinaRotativ4" onclick="KolVoSpinaRotativ4()">4</a>
+     <a href="#" id="KolVoSpinaRotativ6" onclick="KolVoSpinaRotativ6()">6</a> <br>
+   <p><input type="checkbox" id="Nogi" value="Ноги" onclick="if(this.checked){OpenImageNogi()} else {CloseImageNogi()}"> Ноги</p>
+     <a href="#" id="NogiShiacu" onclick = "NogiShiacu()">Шиацу</a>
+     <a href="#" id="KolVoNogiShiacu6" onclick="KolVoNogiShiacu6()">6</a> <br>
+     <a href="#" id="NogiEvromik" onclick = "NogiEvromik()">Евромик</a>
+     <a href="#" id="KolVoNogiEvromik2" onclick="KolVoNogiEvromik2()">2</a>
+     <a href="#" id="KolVoNogiEvromik4" onclick="KolVoNogiEvromik4()">4</a> <br>
+     <a href="#" id="NogiRotativ" onclick = "NogiRotativ()">Ротатив</a>
+     <a href="#" id="KolVoNogiRotativ2" onclick="KolVoNogiRotativ2()">2</a>
+     <a href="#" id="KolVoNogiRotativ4" onclick="KolVoNogiRotativ4()">4</a> <br>
+     <a href="#" id="NogiMac" onclick = "NogiMac()">Мак джет</a>
+     <a href="#" id="KolVoNogiMac2" onclick="KolVoNogiMac2()">2</a> <br>
+     <a href="#" id="NogiJakuz" onclick = "NogiJakuz()">Джакузи</a>
+     <a href="#" id="KolVoNogiJakuz2" onclick="KolVoNogiJakuz2()">2</a> <br>
+     <a href="#" id="NogiRapid" onclick = "NogiRapid()">Рапид</a>
+     <a href="#" id="KolVoNogiRapid2" onclick="KolVoNogiRapid2()">2</a> <br>
+    <div class="prav"><p><input type="checkbox" id = "Obsh" value="Общий" unchecked onclick="if(this.checked){OpenImageObsh()} else {CloseImageObsh()}"> Общий массаж</p>
+     <a href="#" id="ObshJakuz" onclick = "ObshJakuz()">Джакузи</a>
+     <a href="#" id="KolVoObshJakuz6" onclick="KolVoObshJakuz6()">6</a> <br>
+     <a href="#" id="ObshRapid" onclick = "ObshRapid()">Рапид</a>
+     <a href="#" id="KolVoObshRapid6" onclick="KolVoObshRapid6()">6</a> <br>
+     <a href="#" id="ObshMac" onclick = "ObshMac()">Мак джет</a>
+     <a href="#" id="KolVoObshMac6" onclick="KolVoObshMac6()">6</a> <br></div>
+   <div class="prav"><p><input type="checkbox" id="Donniy" value="Донный" onclick="if(this.checked){OpenImageDonniy()} else {CloseImageDonniy()}"> Донный</p>
+     <a href="#" id="DonniyMagic" onclick = "DonniyMagic()">Мэджик</a>
+     <a href="#" id="KolVoDonniyMagic8" onclick="KolVoDonniyMagic8()">8</a>
+     <a href="#" id="KolVoDonniyMagic10" onclick="KolVoDonniyMagic10()">10</a> <br>
+     <a href="#" id="DonniyAero" onclick = "DonniyAero()">Аэро</a>
+     <a href="#" id="KolVoDonniyAero10" onclick="KolVoDonniyAero10()">10</a>
+     <a href="#" id="KolVoDonniyAero12" onclick="KolVoDonniyAero12()">12</a></div>
+
+   <br>
+   <div class="vish"><h4 id="dop opcii">Дополнительные опции</h4>
+   <p><input type="checkbox" id="Aroma" value="Ароматерапия" onclick="if(this.checked){OpenImageAroma()} else {CloseImageAroma()}"> Ароматерапия</p>
+   <p><input type="checkbox" id="Turbo" value="Турбопул" onclick="if(this.checked){OpenImageTurbo()} else {CloseImageTurbo()}"> Турбопул</p></div>
+   <div class="prav"><p><input type="checkbox" id="Hromo" value="Хромотерапия" onclick="if(this.checked){OpenImageHromo()} else {CloseImageHromo()}"> Хромотерапия</p>
+   <p><input type="checkbox" id="Aquasound" value="Аквасаунд" onclick="if(this.checked){OpenImageAquasound()} else {CloseImageAquasound()}"> Аквасаунд</p></div>
+
+   <br>
+   <div class="vish2"><h4 id="aksessuari">Аксессуары</h4>
+   <p><input type="checkbox" id="Ruchki" name="a" value="Ручки" onclick="if(this.checked){OpenImageRuchki()} else {CloseImageRuchki()}"> Ручки</p>
+     <a href="#" id="RuchkiMetal" onclick = "RuchkiMetal()">Металлические</a> <br>
+     <a href="#" id="RuchkiPoluret" onclick = "RuchkiPoluret()">Полуретановые</a> <br></div>
+   <div class="prav2"><p><input id="Smes" type="checkbox" value="Врезной смеситель" onclick="if(this.checked){OpenImageSmes()} else {CloseImageSmes()}"> Врезной смеситель</p>
+       <p><input type="checkbox" id="Podgol" value="Подголовник" onclick="if(this.checked){OpenImagePodgol()} else {CloseImagePodgol()}"> Подголовник</p></div></div>
+
+      <div id="ImageMain" style="opacity: 1.0"><img name = 'imgMain' id="ImageMainI" src = 'images/main.jpg' /></div>
+      <div id="ImageSpina" style="opacity: 0.0"><img name = 'imgSpina' id="ImageSpinaI" src = 'images/1.jpg' /></div>
+      <div id="ImageNogi" style="opacity: 0.0"><img name = 'imgNogi' id="ImageNogiI" src = 'images/2.png' /></div>
+      <div id="ImageObsh" style="opacity: 0.0"><img name = 'imgObsh' id="ImageObshI" src = 'images/3.png' /></div>
+      <div id="ImageDonniy" style="opacity: 0.0"><img name = 'imgDonniy' id="ImageDonniyI" src = 'images/4.png' /></div>
+      <div id="ImageAroma" style="opacity: 0.0"><img name = 'imgAroma' id="ImageAromaI" src = 'images/5.png' /></div>
+      <div id="ImageTurbo" style="opacity: 0.0"><img name = 'imgTurbo' id="ImageTurboI" src = 'images/6.png' /></div>
+      <div id="ImageHromo" style="opacity: 0.0"><img name = 'imgHromo' id="ImageHromoI" src = 'images/7.png' /></div>
+      <div id="ImageAquasound" style="opacity: 0.0"><img name = 'imgAquasound' id="ImageAquasoundI" src = 'images/8.png' /></div>
+      <div id="ImageRuchki" style="opacity: 0.0"><img name = 'imgRuchki' id="ImageRuchkiI" src = 'images/9.png' /></div>
+      <div id="ImageSmes" style="opacity: 0.0"><img name = 'imgSmes' id="ImageSmesI" src = 'images/10.png' /></div>
+      <div id="ImagePodgol" style="opacity: 0.0"><img name = 'imgPodgol' id="ImagePodgolI" src = 'images/11.png' /></div>
+      <div id="ImageSpinaShiacu" style="opacity: 0.0"><img name = 'imgSpinaShiacu' id="ImageSpinaShiacuI" src = 'images/12.jpg' /></div>
+      <div id="ImageSpinaEvromik" style="opacity: 0.0"><img name = 'imgSpinaEvromik' id="ImageSpinaEvromikI" src = 'images/13.png' /></div>
+      <div id="ImageSpinaRotativ" style="opacity: 0.0"><img name = 'imgSpinaRotativ' id="ImageSpinaRotativI" src = 'images/14.png' /></div>
+      <div id="ImageNogiShiacu" style="opacity: 0.0"><img name = 'imgNogiShiacu' id="ImageNogiShiacuI" src = 'images/15.png' /></div>
+      <div id="ImageNogiEvromik" style="opacity: 0.0"><img name = 'imgNogiEvromik' id="ImageNogiEvromikI" src = 'images/16.png' /></div>
+      <div id="ImageNogiRotativ" style="opacity: 0.0"><img name = 'imgNogiRotativ' id="ImageNogiRotativI" src = 'images/17.png' /></div>
+      <div id="ImageNogiMac" style="opacity: 0.0"><img name = 'imgNogiMac' id="ImageNogiMacI" src = 'images/18.png' /></div>
+      <div id="ImageNogiJakuz" style="opacity: 0.0"><img name = 'imgNogiJakuz' id="ImageNogiJakuzI" src = 'images/19.png' /></div>
+      <div id="ImageNogiRapid" style="opacity: 0.0"><img name = 'imgNogiRapid' id="ImageNogiRapidI" src = 'images/20.png' /></div>
+      <div id="ImageObshJakuz" style="opacity: 0.0"><img name = 'imgObshJakuz' id="ImageObshJakuzI" src = 'images/21.png' /></div>
+      <div id="ImageObshRapid" style="opacity: 0.0"><img name = 'imgObshRapid' id="ImageObshRapidI" src = 'images/22.png' /></div>
+      <div id="ImageObshMac" style="opacity: 0.0"><img name = 'imgObshMac' id="ImageObshMacI" src = 'images/23.png' /></div>
+      <div id="ImageDonniyMagic" style="opacity: 0.0"><img name = 'imgDonniyMagic' id="ImageDonniyMagicI" src = 'images/24.png' /></div>
+      <div id="ImageDonniyAero" style="opacity: 0.0"><img name = 'imgDonniyAero' id="ImageDonniyAeroI" src = 'images/25.png' /></div>
+      <div id="ImageRuchkiMetal" style="opacity: 0.0"><img name = 'imgRuchkiMetal' id="ImageRuchkiMetalI" src = 'images/26.png' /></div>
+      <div id="ImageRuchkiPoluret" style="opacity: 0.0"><img name = 'imgRuchkiPoluret' id="ImageRuchkiPoluretI" src = 'images/27.png' /></div>
+
+      <div  id="ButtonCleanA"><a href = "#" onclick="ButtonClean()"><img id="ButtonClean" src = 'images/Clean.png' alt="Очистить" /></a></div>
+      <div id = DialogCloudDug style="opacity: 0.0"><div id="DialogCloudA"><img id="DialogCloud" src = 'images/DialogCloud.png' alt="DialogCLoud"/></div>
+      <div id = "DialogDugA"><img id="DialogDug" src = 'images/DialogDug.png' alt="DialogDug" /></div><div id="AlertDialogTxtNogi" style="opacity = 0.0">Ноги могут работать <br> только с общим!!!</div></div>
+  </form>
+ </body>
+</html>
